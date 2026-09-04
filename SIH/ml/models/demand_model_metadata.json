@@ -1,0 +1,23 @@
+{
+  "model_name": "CityFlow Random Forest Demand Estimator",
+  "version": "1.0.0-SIH2026",
+  "features": [
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "zone_type",
+    "rain_mm"
+  ],
+  "metrics": {
+    "mae": 5.503,
+    "rmse": 8.647,
+    "r2": 0.9282,
+    "feature_importance": {
+      "hour": 0.7371,
+      "day_of_week": 0.0244,
+      "is_weekend": 0.0228,
+      "zone_type": 0.215,
+      "rain_mm": 0.0008
+    }
+  }
+}
